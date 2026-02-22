@@ -1,0 +1,151 @@
+@define-color main #c6d6ff;
+@define-color main_faded #314065;
+@define-color bg rgba(0,0,0,0.2);
+@define-color bg_dark rgba(0,0,0,0.5);
+
+@keyframes fade-in {
+	from { opacity: 0.6; }
+	to { opacity: 1; }
+}
+
+* {
+    font-family: "Nunito ExtraBold", sans-serif;
+    font-size: 16px;
+}
+
+window#waybar {
+	background-color: transparent;
+}
+
+.module {
+	/* background-color: rgba(0, 0, 0, 0.2); */
+	color: @main;
+	padding: 0 10 0 10;
+	/* border-radius: 0 0 10 10; */
+}
+
+
+.module:hover{
+	background: none;
+	background-color: @main;
+	color: @main_faded;
+	transition: all 0.4s ease;
+	border-radius: 0 0 8 8;
+}
+
+tooltip label {
+	color: @main;
+}
+
+tooltip {
+	background-color: @bg_dark;
+}
+
+#custom-blankL {
+	margin-right: 8px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 10;
+}
+#custom-blankL:hover{
+	background:rgba(0, 0, 0, 0.2);
+}
+
+#custom-blankR {
+	margin-left: 8px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 10;
+}
+#custom-blankR:hover{
+	background:rgba(0, 0, 0, 0.2);
+}
+
+
+
+#time {
+	background:rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 0 10;
+}
+
+#workspaces button {
+	color: @main;
+	transition: all 150ms ease;
+}
+
+#networks {
+	background:rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 10;
+}
+
+#hardware {
+	background:rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 0;
+}
+#custom-hardware-wrap {
+	padding: 0 15 0 10;
+}
+#custom-hardware-wrap:hover{
+	border-radius: 0 0 10 0;
+}
+
+#BatLanVol {
+	background: rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 10;
+}
+#clock
+
+#workspaces.module {
+	background: rgba(0,0,0,0.2);
+	border-radius: 0 0 10 10;
+	padding: 0 0 0 0;
+}
+
+#workspaces button:hover {
+	background: none;
+	background-color:rgba(0, 0, 0, 0.4);
+	color:@main;
+	border-radius: 0 0 10 10;
+	/* padding: 0 11 0 7; */
+	box-shadow: none;
+	text-shadow: none;
+	transition: all 0.5s ease;
+}
+
+#workspaces button.active{
+	color:@main_faded;
+	background:@main;
+	border-radius: 0 0 10 10;
+}
+
+#workspaces button.active:hover{
+	background:none;
+	background-color:rgba(0, 0, 0, 0.2);
+	color:@main;
+	border-radius: 0 0 10 10;
+	box-shadow: none;
+	transition: all 0.5s ease;
+}
+
+#workspaces {
+	background:rgba(0, 0, 0, 0.2);
+	border-radius: 0 0 10 10;
+	padding: 0 0 0 0;
+}
+
+#custom-tailscale {
+   background-repeat: no-repeat;
+   background-size: 15px 15px;
+   margin-left: 10px;
+   color: #c6d6ff;
+}
+
+#custom-tailscale.state-1 {
+    background-image: url("icons/tray-on.png"); 
+    background-position: center;
+    background-size: 20px 20px;
+}
+
+#custom-tailscale.state-0 {
+    background-image: url("icons/tray-off.png"); 
+    background-position: center;
+    background-size: 20px 20px;
+}

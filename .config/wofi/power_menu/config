@@ -1,0 +1,11 @@
+mode=dmenu
+width=300
+height=200
+xoffset=980
+yoffset=10
+hide_scroll=true
+dynamic_lines=true
+lines=5
+layer=overlay
+columns=1
+hide_search=true
