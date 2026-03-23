@@ -22,3 +22,20 @@ Also, the waybar config features a tailscale module which requires you to log in
 + *open app launcher with mainmod + R*  
 + *toggle waybar with mainmod + W*  
 
+- You might have to change the "network" module in the [waybar config](.config/waybar/config#96) to fit your network interfaces.
+
+## Gallery
+### Dunst
+<img width="495" height="345" alt="2026-03-23-065740_hyprshot" src="https://github.com/user-attachments/assets/a33b76d0-2388-433e-ad1a-563ceb0b5df5" />   
+
+### Waybar  
+| Modules | Images |
+|-----|-----|
+| Closed | <img width="1920" height="73" alt="2026-03-23-070039_hyprshot" src="https://github.com/user-attachments/assets/065b3c90-15f9-47e6-84de-fe955bed7da7" /> |
+|  Open | <img width="1920" height="73" alt="2026-03-23-070031_hyprshot" src="https://github.com/user-attachments/assets/376df8a0-2ef2-46f1-a3ff-df58c340199f" /> |
+
+
+### Wofi
+|  Launcher | PowerMenu |
+|-----------|-----------|
+| <img width="480" height="1200" alt="2026-03-23-070447_hyprshot" src="https://github.com/user-attachments/assets/face400e-0cc7-49f8-8418-50d56ded1a74" /> | <img width="468" height="255" alt="2026-03-23-070458_hyprshot" src="https://github.com/user-attachments/assets/77bf891a-0947-4232-a4c1-397f3f9d2d65" /> |
