@@ -3,7 +3,7 @@
 <img width="1920" height="1200" alt="dots_showcase2" src="https://github.com/user-attachments/assets/5e4c4a98-51d0-4583-84ae-4e5f720e8f3d" />
 
 ## About
-This if my personal hyprland config! This is the first time I'm posting my dotfiles so I have not yet made an install script.
+This is my personal hyprland config! This is the first time I'm posting my dotfiles so I have not yet made an install script.
 
 ## Installation
 As states previously, there is no installation script, so you will have to separatelly install every app and link its corresponding config file. To install dependencies used in the config, run (if you are on an arch-based distro):
