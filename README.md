@@ -6,7 +6,7 @@
 This if my personal hyprland config! This is the first time I'm posting my dotfiles so I have not yet made an install script.
 
 ## Installation
-As states previously, there is no installation script, so you will have to separatelly install every app and link its corresponding config file. To install dependencies used in the config, run:
+As states previously, there is no installation script, so you will have to separatelly install every app and link its corresponding config file. To install dependencies used in the config, run (if you are on an arch-based distro):
 ```
 sudo pacman -S dunst fastfetch hyprpaper kitty hyprshot waybar wofi
 ```
